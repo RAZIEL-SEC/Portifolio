@@ -1,0 +1,144 @@
+/* Reset básico para consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #F8F8FF 0%, #E6E6FA 100%); /* Fundo suave roxo-claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #6A0DAD 0%, #DA70D6 100%); /* Gradiente roxo-magenta */
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #FF1493; /* Magenta para destaque */
+}
+
+header h4 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Seção principal */
+section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaçamento entre as divs */
+}
+
+/* Estilo para cada div (projetos, habilidades, experiência) */
+#projetos, #habilidades, #experiencia {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projetos:hover, #habilidades:hover, #experiencia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#projetos h1, #habilidades h1, #experiencia h1 {
+    color: #6A0DAD; /* Roxo escuro */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #DA70D6; /* Roxo médio */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: #FF1493; /* Magenta no hover */
+}
+
+/* Links nos projetos */
+#projetos a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projetos a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: #6A0DAD;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header h2 {
+        font-size: 1.8rem;
+    }
+    
+    section {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+    
+    #projetos, #habilidades, #experiencia {
+        padding: 1.5rem;
+    }
+    
+    ul li {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
