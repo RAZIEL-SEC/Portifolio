@@ -12,7 +12,7 @@
 
 ###
 
-<a href="https://raziel-sec.github.io/Portifolio">/</a>
+<a href="https://raziel-sec.github.io/Portifolio">Clique aqui para se redirecionar a página</a>
 
 ###
 
