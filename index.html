@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de João Gabriel - Estudante de programação focado em tecnologia e segurança da informação.">
+    <title>Portfólio Web - João Gabriel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero glass-card">
+        <div class="container">
+            <img src="profile_photo.png" alt="Foto de João Gabriel" class="profile-img">
+            <h1>Portfólio Web</h1>
+            <h2>I'm João Gabriel</h2>
+            <p>Estudante de programação desenvolvendo projetos para transformar ideias em código.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="section glass-card fade-in">
+            <div class="container">
+                <h1>Sobre Mim</h1>
+                <p>Sou João Gabriel, estudante de programação apaixonado por tecnologia e segurança da informação. Meu foco é criar soluções práticas e inovadoras, sempre aprendendo e aplicando conhecimentos em projetos reais. Explore meu portfólio para ver meu trabalho!</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="section glass-card fade-in">
+            <div class="container">
+                <h1>Projetos</h1>
+                <ul>
+                    <li><i class="fas fa-code"></i> <a href="https://github.com/RAZIEL-SEC/Servidor-Python" target="_blank">Servidor em Python</a></li>
+                    <li><i class="fas fa-server"></i> <a href="https://github.com/RAZIEL-SEC/servidorc2" target="_blank">Servidor C2 Command & Control</a></li> <!-- Ajustado para placeholder -->
+                    <li><i class="fas fa-shield-alt"></i> <a href="https://github.com/RAZIEL-SEC/Malware-MSFVENOM" target="_blank">Malware com Backdoor</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section glass-card fade-in">
+            <div class="container">
+                <h1>Habilidades</h1>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML, CSS</li>
+                    <li><i class="fab fa-git"></i> GIT</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-linux"></i> Linux</li>
+                    <li><i class="fas fa-lock"></i> Cyber Sec</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section glass-card fade-in">
+            <div class="container">
+                <h1>Alguns Cursos</h1>
+                <ul>
+                    <li><i class="fas fa-graduation-cap"></i> Segurança da Informação - Curso em Video</li>
+                    <li><i class="fas fa-network-wired"></i> Rede de Computadores - Curso em Video</li>
+                    <li><i class="fab fa-linux"></i> Linux - Curso em Video</li>
+                    <li><i class="fas fa-cogs"></i> Hardware - Curso em Video</li>
+                    <li><i class="fas fa-shield-alt"></i> Cyber Sec - Solyd</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="glass-card">
+        <div class="container">
+            <p>&copy; 2023 João Gabriel. Todos os direitos reservados.</p>
+            <a href="mailto:joao.rodriguez.eng@example.com" class="contact-btn" aria-label="Enviar email para João Gabriel">Contato</a>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+        </div>
+    </footer>
+
+    <script>
+        // Animação de fade-in ao rolar
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
