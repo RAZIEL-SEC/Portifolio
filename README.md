@@ -1,4 +1,30 @@
 ---
+
+.btn-link {
+    display: inline-block;
+    padding: 12px 24px; 
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    text-align: center; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-link:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.btn-link:active {
+    transform: translateY(0);
+}
+
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=onedark"  />
 </div>
@@ -12,8 +38,7 @@
 
 ###
 
-<a align="center" href="https://raziel-sec.github.io/Portifolio">Clique aqui para se redirecionar a página</a>
-
+<a href="https://raziel-sec.github.io/Portifolio" class="btn-link" target="_blank">Clique aqui para se redirecionar à página</a>
 ###
 
 <div>
