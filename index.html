@@ -1,113 +1,124 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de João Gabriel - Estudante de programação focado em tecnologia e segurança da informação.">
-    <title>Portfólio Web - João Gabriel</title>
-    <link rel="icon" href="plataforma-linux.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Raziel — desenvolvimento de software, sistemas e pesquisa em segurança da informação.">
+  <meta property="og:title" content="Raziel — Software & Security">
+  <meta property="og:description" content="Projetos autorais, engenharia de software e pesquisa em segurança.">
+  <meta property="og:type" content="website">
+  <title>Raziel — Software & Security</title>
+  <link rel="icon" href="plataforma-linux.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="hero glass-card">
-        <div class="container">
-            <img src="profile_photo.png" alt="Foto de João Gabriel" class="profile-img">
-            <h1>Portfólio Web</h1>
-            <h2>I'm João Gabriel</h2>
-            <p>Estudante de programação desenvolvendo projetos para transformar ideias em código.</p>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#inicio" aria-label="Raziel, início">R<span>.</span></a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">Manifesto</a><a href="#projetos">Projetos</a><a href="#stack">Stack</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="top-cta" href="mailto:joao.rodriguez.eng@gmail.com">Vamos conversar <i data-lucide="arrow-up-right"></i></a>
+    <button class="menu-toggle" aria-label="Abrir navegação" aria-expanded="false"><i data-lucide="menu"></i></button>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE · SYSTEMS · SECURITY</p>
+        <h1>Raziel<span class="period">.</span></h1>
+        <p class="hero-lead">Construindo sistemas.<br><em>Investigando o que existe por trás deles.</em></p>
+        <p class="hero-description">Sou estudante de Sistemas de Informação e desenvolvedor independente. Trabalho em projetos de software, aplicações web e experimentos de segurança da informação.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#projetos">Explorar projetos <i data-lucide="arrow-down-right"></i></a>
+          <a class="text-link" href="https://github.com/RAZIEL-SEC" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a>
         </div>
-    </header>
-
-    <main>
-        <section id="sobre" class="section glass-card fade-in">
-            <div class="container">
-                <h1>Sobre Mim</h1>
-                <p>Sou João Gabriel, estudante de programação apaixonado por tecnologia e segurança da informação. Meu foco é criar soluções práticas e inovadoras, sempre aprendendo e aplicando conhecimentos em projetos reais. Explore meu portfólio para ver meu trabalho!</p>
-            </div>
-        </section>
-
-        <section id="projetos" class="section glass-card fade-in">
-            <div class="container">
-                <h1>Projetos</h1>
-                <ul>
-                    <li><i class="fas fa-code"></i> <a href="https://void-cloud.onrender.com/" target="_blank">Servidor em Python</a></li>
-                    <li><i class="fas fa-server"></i> <a href="https://github.com/RAZIEL-SEC/ARMAGEDON" target="_blank">Servidor C2 Command & Control</a></li>
-                    <li><i class="fas fa-shield-alt"></i> <a href="https://github.com/RAZIEL-SEC/Malware-MSFVENOM" target="_blank">Malware com Backdoor</a></li>
-                    <li><i class="fas fa-globe"></i> <a href="https://raziel-sec.github.io/PARTIU_TRIP/" target="_blank">Partiu Trip</a></li>
-            </div>
-        </section>
-
-        <section id="habilidades" class="section glass-card fade-in">
-            <div class="container">
-                <h1>Habilidades</h1>
-                <ul>
-                    <li><i class="fas fa-lock"></i> Cyber Sec</li> 
-                    <li><i class="fab fa-html5"></i> HTML</li>
-                    <li><i class="fab fa-css3"></i> CSS</li>   
-                    <li><i class="fab fa-git"></i> GIT</li>
-                    <li><i class="fab fa-python"></i> Pyhton</li>
-                    <li><i class="fa fa-terminal"></i> Bash</li>
-                    <li><i class="fas fa-code"></i> C</li>  
-                    <li><i class="fab fa-php"></i> PHP</li>
-                    <li><i class="fa-solid fa-database"></i> SQL</li>
-                    <li><i class="fab fa-js-square"></i> JavaScript</li>
-                    <li><i class="fab fa-linux"></i> Linux</li>   
-                </ul>
-            </div>
-        </section>
-
-        <section id="experiencia" class="section glass-card fade-in">
-            <div class="container">
-                <h1>Cursos</h1>
-                <ul>
-                    <li><i class="fas fa-graduation-cap"></i> Segurança da Informação - Curso em Video</li>
-                    <li><i class="fas fa-network-wired"></i> Rede de Computadores - Curso em Video</li>
-                    <li><i class="fab fa-linux"></i> Linux - Curso em Video</li>
-                    <li><i class="fas fa-cogs"></i> Hardware - Curso em Video</li>
-                    <li><i class="fab fa-python"></i> Python - Curso em Video</li>
-                    <li><i class="fas fa-shield-alt"></i> Cyber Sec - Solyd</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer id="contato" class="glass-card">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-
-            <div class="contact-icons">
-                <a href="mailto:joao.rodriguez.eng@gmail.com" class="contact-link"
-                    aria-label="Enviar email para João Gabriel" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://github.com/RAZIEL-SEC" target="_blank" class="contact-link"
-                    aria-label="Visitar GitHub de João Gabriel" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/joão-gabriel-rodrigues-662b5b372" class="contact-link"
-                    aria-label="Visitar LinkedIn de João Gabriel" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-
-            <p>&copy; 2026 João Gabriel. Todos os direitos reservados.</p>
-            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="back-to-top"
-                aria-label="Voltar ao topo">↑</button>
+      </div>
+      <div class="hero-art" aria-label="Retrato em preto e branco">
+        <div class="art-frame">
+          <div class="frame-meta"><span>FIG. 01 / RAZIEL</span><span>INDEPENDENT DEVELOPER</span></div>
+          <img src="profile_photo.png" alt="Retrato de Raziel" class="portrait">
+          <div class="portrait-shade"></div>
+          <div class="art-caption"><span class="caption-index">01</span><span>O trabalho fala<br>antes do autor.</span></div>
         </div>
-    </footer>
+        <span class="vertical-note">EST. IN CURIOSITY — BUILT WITH INTENT</span>
+        <span class="orbit orbit-one" aria-hidden="true"></span><span class="orbit orbit-two" aria-hidden="true"></span>
+      </div>
+      <div class="hero-foot"><span>RIO DE JANEIRO, BR</span><span>PORTFÓLIO / 2026</span><a href="#sobre" aria-label="Rolar para sobre"><i data-lucide="move-down"></i></a></div>
+    </section>
 
-    <script>
-        // Animação de fade-in
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
-        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-    </script>
+    <section class="manifesto section-wrap reveal" id="sobre">
+      <div class="section-kicker"><span>01</span><span>MANIFESTO</span></div>
+      <div class="manifesto-content">
+        <p class="display-quote">Tecnologia não é aparência.<br><em>É intenção transformada em estrutura.</em></p>
+        <div class="manifesto-bottom">
+          <p>Meu interesse está no ciclo completo: entender um problema, desenhar uma solução, construir, testar e revisar. Entre aplicações web, automação e segurança, procuro aprender fazendo — com atenção à arquitetura, ao funcionamento real e às consequências de cada escolha.</p>
+          <div class="signature"><span>RAZIEL</span><small>DESENVOLVIMENTO & PESQUISA</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projetos">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker"><span>02</span><span>SELECTED WORK</span></div><h2>Projetos<span class="period">.</span></h2></div>
+        <p>Experimentos, ferramentas e sistemas desenvolvidos em código. Cada projeto documenta uma parte do processo de aprendizagem e construção.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-visual visual-void"><span class="visual-label">01 / WEB SYSTEM</span><div class="void-mark">VOID<span>_</span></div><div class="visual-lines"></div><span class="visual-foot">FILE TRANSFER / PYTHON</span></div>
+          <div class="project-info"><div class="project-topline"><span>01 — CLOUD UTILITY</span><span class="project-state">DOCUMENTADO</span></div><h3>VOID Cloud</h3><p>Servidor web em Python para transferência de arquivos pelo navegador. Reúne upload, download e remoção automática de arquivos após um período de inatividade.</p><div class="tags"><span>Python</span><span>Flask</span><span>Web</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/VOID-CLOUD" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-arm"><span class="visual-label">02 / SECURITY RESEARCH</span><div class="arm-mark">A<span>/</span></div><span class="visual-foot">COMMAND & CONTROL RESEARCH</span></div>
+          <div class="project-info"><div class="project-topline"><span>02 — SECURITY RESEARCH</span><span class="project-state">CÓDIGO PÚBLICO</span></div><h3>ARMAGEDON C2</h3><p>Projeto de pesquisa em arquitetura de command and control, com componentes de teamserver, cliente e comunicação modular. Apresentado aqui em contexto técnico e educacional.</p><div class="tags"><span>Go</span><span>Teamserver</span><span>Security</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/ARMAGEDON" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-crypto"><span class="visual-label">03 / CRYPTOGRAPHY</span><div class="crypto-mark">RzL<span>:</span>CT</div><span class="visual-foot">XOR / BASE64 / PYTHON</span></div>
+          <div class="project-info"><div class="project-topline"><span>03 — CRYPTOGRAPHY LAB</span><span class="project-state">EXPERIMENTAL</span></div><h3>RzL CrypTool</h3><p>Ferramenta em Python para experimentos com transformação de arquivos, XOR, geração de chave e codificação Base64. O código também explora processamento de conteúdo em runtime.</p><div class="tags"><span>Python</span><span>XOR</span><span>Base64</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/RzL-CrypTool" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-builder"><span class="visual-label">04 / BUILD AUTOMATION</span><div class="builder-mark">BUILD<span>_</span></div><span class="visual-foot">CLI / PYINSTALLER</span></div>
+          <div class="project-info"><div class="project-topline"><span>04 — DEVELOPER TOOLING</span><span class="project-state">EXPERIMENTAL</span></div><h3>Builder CrypTool</h3><p>CLI em Python para automatizar builds com PyInstaller, alternar entre modos de console e janela, organizar artefatos e limpar diretórios de compilação.</p><div class="tags"><span>Python</span><span>CLI</span><span>PyInstaller</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/Builder-to-CrypTool" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-stealer"><span class="visual-label">05 / OFFENSIVE SECURITY</span><div class="stealer-mark">RzL<span>—</span>S</div><span class="visual-foot">MALWARE ANALYSIS / LAB ONLY</span></div>
+          <div class="project-info"><div class="project-topline"><span>05 — CONTROLLED STUDY</span><span class="project-state">MALWARE EXPERIMENTAL</span></div><h3>RzL Stealer</h3><p>Projeto experimental de malware, documentado pelo autor para estudo de segurança ofensiva. É apresentado com transparência sobre sua natureza, sem instruções, demonstrações ou detalhes operacionais de coleta.</p><div class="tags"><span>Python</span><span>Malware Study</span><span>Analysis</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/RzL-Stealer" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-stock"><span class="visual-label">06 / FULL-STACK APPLICATION</span><div class="stock-mark">ESTOQUE<span>.</span></div><span class="visual-foot">FASTAPI / POSTGRESQL</span></div>
+          <div class="project-info"><div class="project-topline"><span>06 — WEB APPLICATION</span><span class="project-state">EM DESENVOLVIMENTO</span></div><h3>Trabalho Web III</h3><p>Sistema web de gestão de estoque com API em FastAPI, persistência em PostgreSQL, autenticação, movimentações, auditoria e testes automatizados.</p><div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span></div><a class="project-link" href="https://github.com/RAZIEL-SEC/Trabalho-Web-III" target="_blank" rel="noreferrer">Ver repositório <i data-lucide="arrow-up-right"></i></a></div>
+        </article>
+      </div>
+      <div class="all-projects reveal"><span>MAIS CÓDIGO, MAIS EXPERIMENTOS.</span><a href="https://github.com/RAZIEL-SEC?tab=repositories" target="_blank" rel="noreferrer">Explorar GitHub <i data-lucide="arrow-up-right"></i></a></div>
+    </section>
+
+    <section class="stack section-wrap reveal" id="stack">
+      <div class="section-kicker"><span>03</span><span>TOOLS & METHODS</span></div>
+      <div class="stack-layout"><h2>Ferramentas<br><em>de construção.</em></h2><div class="stack-groups">
+        <div class="stack-row"><span class="stack-label">LINGUAGENS</span><div class="stack-items"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span></div></div>
+        <div class="stack-row"><span class="stack-label">BACKEND & DADOS</span><div class="stack-items"><span>FastAPI</span><span>Flask</span><span>SQLAlchemy</span><span>PostgreSQL</span></div></div>
+        <div class="stack-row"><span class="stack-label">INFRA & WORKFLOW</span><div class="stack-items"><span>Linux</span><span>Docker</span><span>Git</span><span>GitHub Actions</span><span>Bash</span></div></div>
+        <div class="stack-row"><span class="stack-label">ÁREAS DE ESTUDO</span><div class="stack-items"><span>Segurança da informação</span><span>Criptografia experimental</span><span>Automação</span><span>Arquitetura web</span></div></div>
+      </div></div>
+      <p class="stack-note">Tecnologias listadas a partir dos projetos e arquivos públicos consultados. A presença na lista indica uso em projetos ou estudo documentado, não certificação profissional.</p>
+    </section>
+
+    <section class="closing section-wrap reveal" id="contato">
+      <div class="section-kicker"><span>04</span><span>CONTACT</span></div>
+      <p class="closing-pre">Toda boa colaboração começa com uma conversa.</p>
+      <h2>Vamos construir<br><em>algo relevante.</em></h2>
+      <a class="contact-mail" href="mailto:joao.rodriguez.eng@gmail.com">joao.rodriguez.eng@gmail.com <i data-lucide="arrow-up-right"></i></a>
+      <div class="social-links"><a href="https://github.com/RAZIEL-SEC" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a><span class="social-pending">LinkedIn — perfil a confirmar</span></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="wordmark" href="#inicio">R<span>.</span></a><span>© 2026 RAZIEL — FEITO COM INTENÇÃO.</span><a href="#inicio">VOLTAR AO TOPO ↑</a></footer>
 </body>
 </html>
