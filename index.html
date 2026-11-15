@@ -12,7 +12,7 @@
   <link rel="icon" href="plataforma-linux.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://unpkg.com/lucide@latest" defer></script>
   <script src="script.js" defer></script>
@@ -31,27 +31,23 @@
 
   <main id="conteudo">
     <section class="hero section-wrap" id="inicio">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE · SYSTEMS · SECURITY</p>
-        <h1>Raziel<span class="period">.</span></h1>
-        <p class="hero-lead">Construindo sistemas.<br><em>Investigando o que existe por trás deles.</em></p>
-        <p class="hero-description">Sou estudante de Sistemas de Informação e desenvolvedor independente. Trabalho em projetos de software, aplicações web e experimentos de segurança da informação.</p>
+      <div class="hero-banner" role="img" aria-label="Fotografia cinematográfica em preto e branco de um grupo reunido em uma cena de atmosfera noir">
+        <img src="assets/raziel-banner.jpg" alt="" fetchpriority="high">
+        <div class="banner-vignette"></div><div class="banner-scanlines"></div>
+        <div class="banner-stamp">RZL / ARCHIVE 001<br>PRIVATE RESEARCH DIVISION</div>
+        <div class="banner-caption"><span>NO TRUST. VERIFY EVERYTHING.</span><span>EST. 2026 — BRAZIL</span></div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE / SECURITY / RESEARCH</p>
+        <h1>RAZIEL<span class="period">_</span></h1>
+        <p class="hero-lead">A mente por trás<br><em>do sistema.</em></p>
+        <p class="hero-description">Desenvolvimento de software, engenharia de sistemas e pesquisa em segurança da informação. Construir. Investigar. Entender.</p>
         <div class="hero-actions">
-          <a class="button button-light" href="#projetos">Explorar projetos <i data-lucide="arrow-down-right"></i></a>
-          <a class="text-link" href="https://github.com/RAZIEL-SEC" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a>
+          <a class="button button-light" href="#projetos">ACESSAR PROJETOS <i data-lucide="arrow-up-right"></i></a>
+          <a class="text-link" href="https://github.com/RAZIEL-SEC" target="_blank" rel="noreferrer">GITHUB <i data-lucide="arrow-up-right"></i></a>
         </div>
       </div>
-      <div class="hero-art" aria-label="Retrato em preto e branco">
-        <div class="art-frame">
-          <div class="frame-meta"><span>FIG. 01 / RAZIEL</span><span>INDEPENDENT DEVELOPER</span></div>
-          <img src="profile_photo.png" alt="Retrato de Raziel" class="portrait">
-          <div class="portrait-shade"></div>
-          <div class="art-caption"><span class="caption-index">01</span><span>O trabalho fala<br>antes do autor.</span></div>
-        </div>
-        <span class="vertical-note">EST. IN CURIOSITY — BUILT WITH INTENT</span>
-        <span class="orbit orbit-one" aria-hidden="true"></span><span class="orbit orbit-two" aria-hidden="true"></span>
-      </div>
-      <div class="hero-foot"><span>RIO DE JANEIRO, BR</span><span>PORTFÓLIO / 2026</span><a href="#sobre" aria-label="Rolar para sobre"><i data-lucide="move-down"></i></a></div>
+      <div class="hero-index"><span>01 / 04</span><span>IDENTITY & OPERATIONS</span><a href="#sobre" aria-label="Rolar para manifesto"><i data-lucide="arrow-down"></i></a></div>
     </section>
 
     <section class="manifesto section-wrap reveal" id="sobre">
