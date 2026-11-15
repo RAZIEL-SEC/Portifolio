@@ -27,3 +27,7 @@ Abra `index.html` no navegador ou sirva a pasta com qualquer servidor HTTP está
 
 ## Publicação
 Compatível com GitHub Pages na raiz do repositório.
+
+
+## Dark Evil / Cyber Noir revision
+The Hero now uses a wide monochrome group photograph as a banner, removes the personal portrait, and adopts a darker, more technical visual language with condensed typography, grain, vignette, and restrained cyber details. The HTML expects the image at `assets/raziel-banner.jpg`.
