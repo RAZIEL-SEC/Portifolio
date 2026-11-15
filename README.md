@@ -27,3 +27,9 @@ Abra `index.html` no navegador ou sirva a pasta com qualquer servidor HTTP está
 
 ## Publicação
 Compatível com GitHub Pages na raiz do repositório.
+
+
+## Direção visual — Dark Evil / Cyber Noir
+A revisão visual remove o retrato pessoal do Hero e utiliza a fotografia monocromática enviada como banner panorâmico em `assets/raziel-banner.jpg`. A interface adota preto profundo, tipografia condensada e técnica, ruído, vinheta e microtexturas discretas. O efeito cyber é contido e editorial, sem neon ou estética sci-fi.
+
+**Atenção:** o HTML já aponta para `assets/raziel-banner.jpg`, mas o binário ainda precisa ser adicionado ao repositório. A imagem otimizada está disponível no arquivo entregue nesta conversa para inclusão nesse caminho.
