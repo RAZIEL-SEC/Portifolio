@@ -35,9 +35,5 @@
     revealItems.forEach(item => item.classList.add('is-visible'));
   }
 
-  const renderIcons = () => {
-    if (window.lucide) window.lucide.createIcons();
-    else setTimeout(renderIcons, 150);
-  };
-  renderIcons();
+  if (window.lucide) window.lucide.createIcons();
 })();
