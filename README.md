@@ -1,35 +1,29 @@
----
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=onedark"  />
-</div>
+# Raziel — Portfólio
 
-###
+Portfólio pessoal estático de Raziel, com direção de arte editorial/cinematográfica em preto e branco.
 
-<h1 align="center">PORTIFÓLIO 👨‍💻</h1>
+## Stack
+- HTML semântico
+- CSS responsivo e custom properties
+- JavaScript sem framework
+- Lucide para ícones
+- Google Fonts: Cormorant Garamond, Manrope e DM Mono
 
-###
+## Executar localmente
+Abra `index.html` no navegador ou sirva a pasta com qualquer servidor HTTP estático.
 
+## Estrutura
+- `index.html`: conteúdo e metadados
+- `styles.css`: identidade visual, layout e responsividade
+- `script.js`: menu mobile, ícones e animações de entrada
+- `profile_photo.png`: retrato utilizado no hero
 
-###
+## Observações
+- Não há formulário de contato porque o repositório não possui backend de envio configurado.
+- O perfil LinkedIn precisa ser confirmado antes de publicar um link direto.
+- Certificações não foram incluídas por falta de credenciais verificáveis no material consultado.
+- Os projetos de segurança ofensiva são descritos em contexto de pesquisa, sem instruções operacionais.
+- A página respeita `prefers-reduced-motion` e não requer build ou dependências npm.
 
-<div align="center">
-  <a href="https://raziel-sec.github.io/Portifolio" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 8px; font-family: Arial, sans-serif; font-size: 16px; font-weight: 600; text-align: center; transition: background-color 0.3s ease, transform 0.2s ease; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" target="_blank">Clique aqui para se redirecionar à página</a>
-</div>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark"  />
-</div>
-
-###
-
-<div align="center">
-  <img height="350" src="https://i.pinimg.com/originals/e1/86/a9/e186a9999fafbc7041ca9b06156c39ba.gif"  />
-</div>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark"  />
-</div>
+## Publicação
+Compatível com GitHub Pages na raiz do repositório.
