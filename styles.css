@@ -117,7 +117,7 @@ body{background:#050606;color:#e4e6e1}
  --page:min(1160px,calc(100% - 8vw));
 }
 html{scroll-padding-top:72px}
-body{background:#070509;color:var(--paper);font-family:var(--sans);font-size:13px;line-height:1.58}
+html{background:#070509}body{background:transparent;color:var(--paper);font-family:var(--sans);font-size:13px;line-height:1.58}
 body:before{
  content:"";position:fixed;inset:-18%;z-index:-1;pointer-events:none;
  background:
